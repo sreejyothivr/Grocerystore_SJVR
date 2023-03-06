@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Testsuite1234]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ManageordersPage">
+        <methods>
+          <include name="manageresetcolorVerrification"/>
+          <include name="listsortingchecking"/>
+          <include name="beforemethod"/>
+          <include name="payamentSelection"/>
+          <include name="listcompare"/>
+          <include name="aftermethod"/>
+          <include name="chkElementsStatus"/>
+        </methods>
+      </class> <!-- testcases.ManageordersPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="testcases.ManageordersPage">
+        <methods>
+          <include name="manageresetcolorVerrification"/>
+          <include name="listsortingchecking"/>
+          <include name="beforemethod"/>
+          <include name="payamentSelection"/>
+          <include name="listcompare"/>
+          <include name="aftermethod"/>
+          <include name="chkElementsStatus"/>
+        </methods>
+      </class> <!-- testcases.ManageordersPage -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [My Testsuite1234] -->

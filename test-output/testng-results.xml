@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Testsuite" duration-ms="31039" started-at="2022-11-13T22:12:33 IST" finished-at="2022-11-13T22:13:04 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="31039" started-at="2022-11-13T22:12:33 IST" finished-at="2022-11-13T22:13:04 IST">
+      <class name="testcases.ManageordersPage">
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="beforemethod" is-config="true" duration-ms="6275" started-at="2022-11-13T22:12:33 IST" finished-at="2022-11-13T22:12:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="chkElementsStatus(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="chkElementsStatus" duration-ms="1541" started-at="2022-11-13T22:12:39 IST" data-provider="data-provider" finished-at="2022-11-13T22:12:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkElementsStatus -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="aftermethod" is-config="true" duration-ms="258" started-at="2022-11-13T22:12:41 IST" finished-at="2022-11-13T22:12:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chkElementsStatus status=SUCCESS method=ManageordersPage.chkElementsStatus(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="beforemethod" is-config="true" duration-ms="5062" started-at="2022-11-13T22:12:41 IST" finished-at="2022-11-13T22:12:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="chkElementsStatus(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="chkElementsStatus" duration-ms="1662" started-at="2022-11-13T22:12:46 IST" data-provider="data-provider" finished-at="2022-11-13T22:12:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delivered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkElementsStatus -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testcases.ManageordersPage@757942a1]" name="aftermethod" is-config="true" duration-ms="16208" started-at="2022-11-13T22:12:48 IST" finished-at="2022-11-13T22:13:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chkElementsStatus status=SUCCESS method=ManageordersPage.chkElementsStatus(java.lang.String)[pri:0, instance:testcases.ManageordersPage@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testcases.ManageordersPage -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- My Testsuite -->
+</testng-results>

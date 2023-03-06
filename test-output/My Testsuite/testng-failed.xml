@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Testsuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ManageExpensePage">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="imageuputilities"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testcases.ManageExpensePage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [My Testsuite] -->

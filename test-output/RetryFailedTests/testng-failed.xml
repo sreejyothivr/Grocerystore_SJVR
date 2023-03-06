@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RetryFailedTests]">
+  <listeners>
+    <listener class-name="retryTest.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMulitple(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testcases.LoginTestCase">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="excelverifyLoggedUsers"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCase -->
+    </classes>
+  </test> <!-- RetryMulitple(failed) -->
+</suite> <!-- Failed suite [RetryFailedTests] -->
